@@ -1,5 +1,5 @@
-describe("ts-starter", () => {
+describe("consistency-test", () => {
   it("happy path", () => {
-    expect(1).toBe(1)
+    expect("string one").toMatchInlineSnapshot('"string one"')
   })
 })
